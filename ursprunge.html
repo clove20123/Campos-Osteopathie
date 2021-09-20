@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Campos-Osteopathie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6bcfbd2f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </head>
+  <body>
+    <section class="ursprunge-header">
+      <nav>
+        <a href="index.html"><img src="img/logo3.jpg"></a>
+        <div class="nav-links" id="hideMenu()">
+          <i class="fas fa-times" onClick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Willkommen</a></li>
+            <li><a href="osteopathie.html">Osteopathie</a></li>
+            <li><a href="ablauf.html">Ablauf der Behandlung</a></li>
+            <li><a href="teilbereiche.html">Teilbereiche der Osteopathie</a></li>
+            <li><a href="ursprunge.html">Ursprünge der Osteopathie</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="kosten.html">Kosten</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+      <h1>Ursprünge der Osteopathie</h1>
+    </section>   
+
+   <section class="ursprunge">
+     <div class="row">
+       <div class="ursprunge-col">
+         <p>Andrew Taylor Still (1828-1917) gilt als Begründer der Osteopathie. Er sah den „triune man“, den dreieinigen Menschen, bestehend aus Körper, Geist (Verstand) und Seele. Er beschäftigte sich mit dem Konzept „Gesundheit“ und studierte ausgiebig die Anatomie des Menschen, die er als Schlüssel zur Gesundheit betrachtete.</p>
+         <p>Außerdem formulierte er die geistigen Grundlagen der Osteopathie:</p>
+         <ol>
+           <li>Der Körper besitzt die Fähigkeit zur Autoregulation und Selbstheilung, die sogenannte Vitale Kraft. Der Osteopath versucht diese Vitale Kraft zu unterstützen.</li>
+           <li>Das Gesetz der Arterie ist absolut.
+            Der Osteopath fördert die Zirkulation von Blut, Lymphe, Liquor (und Synovialflüssigkeit) zur Versorgung des Gewebes mit Nährstoffen, Entsorgung von Stoffwechselabfallprodukten und  Transport von Hormonen.
+            </li>
+           <li>Der Körper funktioniert als Einheit.
+            Veränderungen in einem Gewebe oder in der Physiologie eines Systems des Körpers können vielfältige lokale oder systemische Auswirkungen nach sich ziehen. Die ursprüngliche, primäre Dysfunktion zu finden und zu behandeln ist die Aufgabe des Osteopathen.
+            </li>
+           <li>Struktur und Funktion bedingen sich gegenseitig.</li>
+           <li>Leben ist Bewegung.</li>
+         </ol>
+         <p>Von einem Schüler A.T. Stills wurde die Osteopathie weiterentwickelt, die zu Stills Zeit vornehmlich unserer heutigen parietalen Osteopathie entsprach. William Garner Sutherland beschäftigte sich mit der Elastizität und Mobilität des Schädels und entwickelte dadurch die kraniosakrale Osteopathie, die von John E. Upledger auf den heutigen Stand weiterentwickelt wurde.
+          Nach Europa gebracht wurde die Osteopathie von den Martin Littlejohn, der 1917 die British School of Osteopathy in London gründete.
+          Erst vor ca. 40 Jahren entwickelte Jean Pierre Barral die viszerale Osteopathie.
+          </p>
+       </div>
+       <div class="ursprunge-col">
+        <img src="img/ursprunge1.jpeg">
+        <img src="img/ursprunge2.jpeg">
+       </div>
+     </div>
+  
+
+   </section>
+
+   <section class="footer">
+    <h4>Kontakt</h4>
+    <p>Osteopathie-Praxis Dr. Campos</p>
+    <p>Dr. med. Julia Campos Arnoldi</p>
+    <p>Ärztin, Osteopathin</p>
+    <p>Singoldstr. 19</p>
+    <p>86862 Lamerdingen-Großkitzighofen </p>
+    <p>08248/9694453 0179/5107404</p>
+    <a href="dr.julia@campos-osteopathie.de">dr.julia@campos-osteopathie.de</a>
+  </section>
+
+    <!---JavaScript for Toogle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script> 
+  </body>
+</html>

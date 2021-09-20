@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Campos-Osteopathie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6bcfbd2f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </head>
+  <body>
+    <section class="teil-header">
+      <nav>
+        <a href="index.html"><img src="img/logo3.jpg"></a>
+        <div class="nav-links" id="hideMenu()">
+          <i class="fas fa-times" onClick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Willkommen</a></li>
+            <li><a href="osteopathie.html">Osteopathie</a></li>
+            <li><a href="ablauf.html">Ablauf der Behandlung</a></li>
+            <li><a href="teilbereiche.html">Teilbereiche der Osteopathie</a></li>
+            <li><a href="ursprunge.html">Ursprünge der Osteopathie</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="kosten.html">Kosten</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+      <h1>Teilbereiche der Osteopathie</h1>
+    </section>   
+
+   <section class="teil">
+     <div class="row">
+       <div class="teil-col">
+         <p>Die Osteopathie wird in drei Bereiche untergliedert:</p>
+         <p>Die parietale Osteopathie beschäftigt sich besonders mit dem Bewegungs- und Stützapparat, also Knochen mit dazugehörigen Gelenken, Sehnen und Muskeln. Durch übermäßige Belastung oder fehlende Beanspruchung kann das Gleichgewicht der Funktionen von Gelenken, Muskeln und Sehnen gestört werden, so dass es zu Bewegungseinschränkungen, Fehlhaltung und Schmerzen kommen kann. Durch die richtigen Techniken können Gelenksblockaden und Verklebungen gelöst werden und muskuläre Verspannungen behandelt werden. So kann der Körper in eine schmerzfreie Körperhaltung und Funktion zurückfinden.</p>
+         <p>In der viszeralen Osteopathie stehen die inneren Organe im Fokus mit den dazugehörigen Faszien, Blut- und Lymphbahnen und Nerven. Für funktionelle Einschränkungen der Organe ist, nach Ansicht der viszeralen Osteopathie, meist eine Beeinträchtigung der Organbewegung verantwortlich. Durch Reflexe können diese Störungen auch an den Bewegungsapparat weitergegeben werden, so dass hier Einschränkungen auftreten können. Der Therapeut ertastet die Eigenbewegung der Organe und kann im Falle einer Störung durch bestimmte sanfte Techniken, über Zug, Druck und Gleiten, die Organbewegung verbessern.</p>
+         <p>Die kraniosakrale Osteopathie hat ihren Schwerpunkt im Bereich des Schädels, der Wirbelsäule und des Kreuzbeines und dem darin liegenden zentralen Nervensystem des Körpers. Der Osteopath ertastet die feinen rhythmischen Bewegungen der Schädelknochen sowie des Kreuzbeines, die laut Sutherland durch die rhythmische Bewegung der Gehirn-Rückenmarksflüssigkeit zustande kommt. Dies wird kraniosakraler Rhythmus oder Kraniosakralpuls genannt. Bei Vorhandensein einer Störung in diesem Bereich wird durch sanfte Behandlung, Druck oder Zug, eine erhöhte Gewebsspannung reduziert, um den Rhythmus in Einklang zu bringen.</p>
+         <p>Sinnvollerweise kombiniert der Osteopath diese drei Bereiche um eine ganzheitliche Genesung durch Aktivierung der Selbstheilungskräfte anzuregen. </p>
+       </div>
+       <div class="teil-col">
+        <img src="img/teil1.jpeg">
+        <img src="img/teil2.jpeg">
+       </div>
+     </div>
+  
+
+   </section>
+
+   <section class="footer">
+    <h4>Kontakt</h4>
+    <p>Osteopathie-Praxis Dr. Campos</p>
+    <p>Dr. med. Julia Campos Arnoldi</p>
+    <p>Ärztin, Osteopathin</p>
+    <p>Singoldstr. 19</p>
+    <p>86862 Lamerdingen-Großkitzighofen </p>
+    <p>08248/9694453 0179/5107404</p>
+    <a href="dr.julia@campos-osteopathie.de">dr.julia@campos-osteopathie.de</a>
+  </section>
+
+    <!---JavaScript for Toogle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script> 
+  </body>
+</html>

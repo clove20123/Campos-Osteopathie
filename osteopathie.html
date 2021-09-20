@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Campos-Osteopathie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b6bcfbd2f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </head>
+  <body>
+    <section class="ost-header">
+      <nav>
+        <a href="index.html"><img src="img/logo3.jpg"></a>
+        <div class="nav-links" id="hideMenu()">
+          <i class="fas fa-times" onClick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Willkommen</a></li>
+            <li><a href="osteopathie.html">Osteopathie</a></li>
+            <li><a href="ablauf.html">Ablauf der Behandlung</a></li>
+            <li><a href="teilbereiche.html">Teilbereiche der Osteopathie</a></li>
+            <li><a href="ursprunge.html">Ursprünge der Osteopathie</a></li>
+            <li><a href="about.html">Über mich</a></li>
+            <li><a href="kosten.html">Kosten</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+  <h1>Osteopathie</h1>    
+  
+    </section>   
+
+    <section class="osteopathie">
+      <div class="row">
+        <div class="ost-col">
+         <p>Osteopathie ist eine ganzheitliche und integrative Heilmethode, als Ergänzung und Erweiterung zur klassischen Medizin.
+          Gesundheit im Sinne der Osteopathie ist ein dynamisches Gleichgewicht der körperlichen, geistigen und seelischen Kräfte eines Menschen in seinem Umfeld.
+          </p>
+          <p>Eine osteopathische Behandlung beinhaltet eine ausführliche Anamnese und Untersuchung sowie eine Behandlung mit den Händen des Therapeuten. Die Hände sind das „Werkzeug“ des Osteopathen. Mit Hilfe der Hände und des Tastsinns spürt der Osteopath Veränderungen der Gewebebeschaffenheit, Gewebeempfindlichkeit sowie Bereiche eingeschränkter Mobilität und Vitalität auf, um anschließend gezielt behandeln zu können. Dabei soll die Behandlung dem Körper ermöglichen wieder in ein harmonisches Gleichgewicht zu finden, damit die Selbstheilungskräfte wieder ungestört arbeiten können und sich so der Gesundheitszustand verbessert.</p>
+          <p>Typische Indikationen für Osteopathie:</p>
+          <ul>
+            <li>Schmerzen im Bewegungsapparat (z.B. Rückenschmerzen, Schulter- und Nackenschmerzen, Schmerzen an Gelenken)</li>
+            <li>Neurologische Beschwerden (z.B. Kopfschmerzen, Schwindel)</li>
+            <li>Beschwerden des Herz-Kreislaufsystems</li>
+            <li>Verdauungsbeschwerden</li>
+            <li>Atemwegsbeschwerden</li>
+            <li>Urogenitalbeschwerden</li>
+            <li>Kieferbeschwerden</li>
+          </ul>
+          <p>Osteopathie kann je nach Beschwerden die Therapie der Wahl darstellen oder gemeinsam mit anderen Therapiemethoden angewandt werden. Für medizinische Notfälle, Infektionskrankheiten, bösartigen Tumorerkrankungen oder psychische Probleme ist sie nicht geeignet.</p>
+        </div>
+        <div class="ost-col">
+          <img src="img/ost1.jpeg">
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Kontakt</h4>
+      <p>Osteopathie-Praxis Dr. Campos</p>
+      <p>Dr. med. Julia Campos Arnoldi</p>
+      <p>Ärztin, Osteopathin</p>
+      <p>Singoldstr. 19</p>
+      <p>86862 Lamerdingen-Großkitzighofen </p>
+      <p>08248/9694453 0179/5107404</p>
+      <a href="dr.julia@campos-osteopathie.de">dr.julia@campos-osteopathie.de</a>
+    </section>
+
+
+
+    <!---JavaScript for Toogle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script> 
+  </body>
+</html>
