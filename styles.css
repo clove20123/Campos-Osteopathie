@@ -19,8 +19,9 @@
 
 nav {
   display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
   padding: 2% 6%;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -78,6 +79,12 @@ nav img {
   margin: 10px 0 40px;
   font-size: 24px;
   color: #fff;
+}
+
+.text-box img {
+  position: absolute;
+  top: 150px;
+  right: 50px;
 }
 
 nav .fas {
@@ -331,6 +338,7 @@ td {
 
 .ablauf ol {
   padding: 20px;
+  font-size: 18px;
 }
 
 /*---kosten---*/
@@ -484,4 +492,43 @@ td {
 
 .index-footer p {
   font-size: 12px;
+}
+
+/*---impressum---*/
+
+.impressum-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(104, 109, 127, 0.7),
+      rgba(114, 125, 165, 0.7)
+    ),
+    url(img/background3.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.impressum-header h1 {
+  margin-top: 100px;
+}
+
+.impressum {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.imp-col {
+  flex-basis: 100%;
+  padding: 30px 2px;
+}
+
+.imp-col p {
+  padding: 15px 0 25px;
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
 }
