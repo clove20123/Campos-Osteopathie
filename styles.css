@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
@@ -17,12 +18,17 @@
   position: relative;
 }
 
-nav {
+nav,
+.nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-flow: row wrap;
   padding: 2% 6%;
   align-items: center;
+}
+
+nav {
+  margin-bottom: 0px;
 }
 
 nav img {
@@ -98,6 +104,62 @@ nav .fas {
   .nav-links ul li {
     display: block;
   }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fas {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  nav-links ul {
+    padding: 30px;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  .about-me img,
+  .osteopathie img,
+  .ablauf img,
+  .teil img,
+  .ursprunge img,
+  .kosten img {
+    display: none;
+  }
+}
+
+@media (max-width: 1366px) {
+  .sign {
+    display: none;
+  }
+
+  .nav-links ul li {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .nav-links {
     position: absolute;
     background: #f44336;
@@ -138,7 +200,7 @@ nav .fas {
 }
 
 .ost-header h1 {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .osteopathie {
@@ -158,10 +220,11 @@ nav .fas {
 }
 
 .ost-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 18px;
   line-height: 30px;
+  margin: 0;
 }
 
 .ost-col li {
@@ -195,7 +258,7 @@ nav .fas {
 }
 
 .row {
-  margin-top: 5%;
+  margin-top: 0%;
   display: flex;
   justify-content: space-between;
 }
@@ -217,7 +280,7 @@ nav .fas {
 }
 
 .about-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 18px;
   line-height: 30px;
@@ -283,7 +346,7 @@ td {
 }
 
 .teil-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 18px;
   line-height: 30px;
@@ -326,7 +389,7 @@ td {
 }
 
 .ablauf-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 18px;
   line-height: 30px;
@@ -378,7 +441,7 @@ td {
 }
 
 .kosten-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 18px;
   line-height: 30px;
@@ -431,7 +494,7 @@ td {
 }
 
 .ursprunge-col p {
-  padding: 15px 0 25px;
+  padding: 0px;
   color: black;
   font-size: 20px;
   line-height: 30px;
@@ -450,7 +513,7 @@ td {
 /*----footer----*/
 
 .footer {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
 
   padding: 30px 0;

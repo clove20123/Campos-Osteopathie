@@ -17,7 +17,7 @@
         <a href="index.html"><img src="img/logo3.jpg"></a>
         <div class="nav-links" id="hideMenu()">
           <i class="fas fa-times" onClick="hideMenu()"></i>
-          <ul>
+          <ul class="nav-list">
             <li><a href="index.html">Willkommen</a></li>
             <li><a href="osteopathie.html">Osteopathie</a></li>
             <li><a href="ablauf.html">Ablauf der Behandlung</a></li>
@@ -96,27 +96,27 @@
   </table>
    </section>
 
-   <section class="index-footer">
+   <section class="footer">
     <h4>Kontakt</h4>
     <p>Osteopathie-Praxis Dr. Campos</p>
     <p>Dr. med. Julia Campos Arnoldi</p>
     <p>Ärztin, Osteopathin</p>
     <p>Singoldstr. 19</p>
     <p>86862 Lamerdingen-Großkitzighofen </p>
-    <p>08248/9694453 0179/5107404</p>
+    <i class="fas fa-phone"></i> 08248/9694453 <i class="fas fa-mobile-alt"></i> 0179/5107404<br>
     <a href="dr.julia@campos-osteopathie.de">dr.julia@campos-osteopathie.de</a><br>
     <a href="impressum.html">Impressum/Disclaimer/Datenschutz</a>
     <p>Made by Chandler Love</p>
   </section>
-
     <!---JavaScript for Toogle Menu-->
     <script>
-      var navLinks = document.getElementById("navLinks");
+      var navLinks = document.querySelector(".nav-links");
       function showMenu(){
         navLinks.style.right = "0";
+        navLinks.style.display = "block";
       }
       function hideMenu(){
-        navLinks.style.right = "-200px";
+        navLinks.style.display = "none";
       }
     </script> 
   </body>
