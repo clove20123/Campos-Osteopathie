@@ -213,6 +213,11 @@ nav .fas {
   padding-bottom: 50px;
 }
 
+.ost-pic {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
 .ost-col {
   
   padding: 30px 2px;
@@ -270,6 +275,7 @@ nav .fas {
 
 .about-me-pic {
   width: 80%;
+  padding-bottom: 5%;
 }
 
 .about-col p {
@@ -376,8 +382,9 @@ padding-bottom: 5%;
   padding: 30px 2px;
 }
 
-.ablauf-col img {
+.ablauf-pic {
   width: 100%;
+  padding-bottom: 5%;
 }
 
 .ablauf-col p {
@@ -393,7 +400,7 @@ padding-bottom: 5%;
 
 .ablauf ol {
   padding: 20px;
-  font-size: 18px;
+  
 }
 
 /*---kosten---*/
@@ -483,6 +490,7 @@ padding-bottom: 5%;
 
 .ursprunge-pic {
   width: 100%;
+  padding-bottom: 5%;
 }
 
 .ursprunge-col p {
