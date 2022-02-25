@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+ 
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
@@ -144,6 +144,8 @@ nav .fas {
   .kosten img {
     display: none;
   }
+
+
 }
 
 @media (max-width: 1366px) {
@@ -496,7 +498,7 @@ td {
 .ursprunge-col p {
   padding: 0px;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -513,10 +515,9 @@ td {
 /*----footer----*/
 
 .footer {
-  height: 40vh;
-  width: 100%;
 
-  padding: 30px 0;
+
+  padding: 50px 0 20px;
   background-image: linear-gradient(
     rgba(179, 189, 223, 0.7),
     rgba(114, 125, 165, 0.7)
@@ -527,11 +528,11 @@ td {
   color: #fff;
 }
 
-.footer h4 {
+/*.footer h4 {
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
-}
+} */
 
 .footer p {
   font-size: 12px;
